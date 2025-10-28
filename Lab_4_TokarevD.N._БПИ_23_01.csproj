@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FA69A7D1-65D6-4B29-93F9-3B68185A3E26}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab_4_AsadullinaD.D._БПИ_23_01</RootNamespace>
-    <AssemblyName>Lab_4_AsadullinaD.D._БПИ-23-01</AssemblyName>
+    <RootNamespace>Lab_4_TokarevD.N._БПИ_23_01</RootNamespace>
+    <AssemblyName>Lab_4_TokarevD.N._БПИ-23-01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

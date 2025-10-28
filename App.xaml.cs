@@ -8,9 +8,6 @@ using System.Windows;
 
 namespace Lab_4_TokarevD.N._БПИ_23_01
 {
-    /// <summary>
-    /// Логика взаимодействия для App.xaml
-    /// </summary>
     public partial class App : Application
     {
     }

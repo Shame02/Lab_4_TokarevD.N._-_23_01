@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Lab_4_TokarevD.N._БПИ_23_01.View
 {
-    /// <summary>
-    /// Логика взаимодействия для WindowNewRole.xaml
-    /// </summary>
+
     public partial class WindowNewRole : Window
     {
         public WindowNewRole()

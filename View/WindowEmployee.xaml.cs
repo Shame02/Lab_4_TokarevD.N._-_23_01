@@ -20,9 +20,7 @@ using System.Windows.Shapes;
 
 namespace Lab_4_TokarevD.N._БПИ_23_01.View
 {
-    /// <summary>
-    /// Логика взаимодействия для WindowEmployee.xaml
-    /// </summary>
+
     public partial class WindowEmployee : Window
     {
         public WindowEmployee()

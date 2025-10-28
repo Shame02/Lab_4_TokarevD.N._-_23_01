@@ -18,16 +18,14 @@ using System.Windows.Shapes;
 
 namespace Lab_4_TokarevD.N._БПИ_23_01
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
 
-            // ✅ Устанавливаем контекст данных для привязки команд
+
             DataContext = new MainViewModel();
         }
     }

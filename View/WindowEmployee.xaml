@@ -10,14 +10,14 @@
 
     <DockPanel Background="#FFD8D8D8">
 
-        <!-- Панель с кнопками -->
+        
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="5">
             <Button Content="Добавить" Command="{Binding AddPerson}" Margin="5" Width="100"/>
             <Button Content="Редактировать" Command="{Binding EditPerson}" Margin="5" Width="100"/>
             <Button Content="Удалить" Command="{Binding DeletePerson}" Margin="5" Width="100"/>
         </StackPanel>
 
-        <!-- Таблица сотрудников -->
+        
         <ListView ItemsSource="{Binding ListPersonDpo}"
                   SelectedItem="{Binding SelectedPersonDpo}"
                   Background="#FFD3CDCD" Margin="10">

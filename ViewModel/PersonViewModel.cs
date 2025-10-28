@@ -41,7 +41,6 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
             ListPersonDpo = GetListPersonDpo();
         }
 
-        // создаем DPO-список из основной коллекции Person
         public ObservableCollection<PersonDpo> GetListPersonDpo()
         {
             var list = new ObservableCollection<PersonDpo>();
@@ -59,9 +58,7 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
             return ListPersonDpo.Max(x => x.Id);
         }
 
-        // ===============================================================
-        // Команды
-        // ===============================================================
+
 
         private RelayCommand addPerson;
         public RelayCommand AddPerson
@@ -170,7 +167,7 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
             }
         }
 
-        // ===============================================================
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")
@@ -179,21 +176,4 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

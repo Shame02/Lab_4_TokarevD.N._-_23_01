@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab_4_TokarevD.N._БПИ_23_01.View"
         mc:Ignorable="d"
-        Title="WindowNewRole" Height="450" Width="800">
+        Title="WindowNewRole" Height="177" Width="422">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

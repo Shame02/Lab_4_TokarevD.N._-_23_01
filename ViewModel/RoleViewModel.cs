@@ -44,7 +44,7 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
             return max;
 
         }
-        /// команда добавления новой должности
+
         private RelayCommand addRole;
         public RelayCommand AddRole
         {
@@ -57,7 +57,6 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
                     {
                         Title = "Новая должность",
                     };
-                    // формирование кода новой должности
                     int maxIdRole = MaxId() + 1;
                     Role role = new Role { Id = maxIdRole };
                     wnRole.DataContext = role;
@@ -86,7 +85,7 @@ namespace Lab_4_TokarevD.N._БПИ_23_01.ViewModel
                     wnRole.DataContext = tempRole;
                     if (wnRole.ShowDialog() == true)
                     {
-                        // сохранение данных в оперативной памяти
+
                         role.NameRole = tempRole.NameRole;
                     }
                 }, (obj) => SelectedRole != null && ListRole.Count > 0));
